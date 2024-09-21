@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// OLD CODE, WILL BE REVISED IN FUTURE
 public class MouseLook : MonoBehaviour
 {
     //Code for changing the sensitivity
@@ -11,7 +12,8 @@ public class MouseLook : MonoBehaviour
 
     //This will be for actually rotating the characters
     public Transform playerBody;
-
+    
+    // xRotation has errors on rotate, does not work with unity build.
     float xRotation = 0f;
 
     // Start is called before the first frame update
